@@ -1,0 +1,30 @@
+.input {
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 125px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 45, 45);
+  color: whitesmoke;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 500px;
+}
+
+.card {
+  margin: 20px;
+}
